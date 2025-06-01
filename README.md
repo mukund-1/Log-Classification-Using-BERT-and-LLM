@@ -1,39 +1,39 @@
-# 🔍 Log Classification With Hybrid Classification Framework
+# Log Classification With Hybrid Classification Framework
 
 This project implements a **hybrid log classification system**, combining three complementary approaches to handle varying levels of complexity in log patterns. The classification methods ensure **flexibility and effectiveness** in processing predictable, complex, and poorly labeled data.
 
 ---
 
-## 🧠 Classification Approaches
+## Classification Approaches
 
 1.
 
-### ✅ Regular Expression (Regex)
+### Regular Expression (Regex)
 
 * Handles **simplified and predictable** patterns.
 * Ideal for logs that can be matched using predefined rules.
 
 2.
 
-### 🔤 Sentence Transformer + Logistic Regression
+### Sentence Transformer + Logistic Regression
 
 * Targets **complex patterns** when there is **sufficient training data**.
 * Uses **Sentence Transformers** to generate embeddings, followed by **Logistic Regression** for classification.
 
 3.
 
-### 🤖 Large Language Models (LLMs)
+### Large Language Models (LLMs)
 
 * Used when **training data is insufficient**.
 * Acts as a **fallback or complementary** method for complex and less structured log data.
 
 ---
 
-### 🧱 Architecture
+### Architecture
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 | Folder       | Description                                                                                                          |
 | ------------ | -------------------------------------------------------------------------------------------------------------------- |
@@ -70,7 +70,7 @@ Once running, you can access:
 
 ---
 
-## 📦 Usage
+## Usage
 
 Upload a CSV file containing logs via the FastAPI endpoint. Ensure your file has the following columns:
 

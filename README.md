@@ -30,7 +30,7 @@ This project implements a **hybrid log classification system**, combining three 
 ---
 
 ### Architecture
-![architecture](resources/arch%20.png))
+![architecture](resources/arch.png))
 
 ---
 

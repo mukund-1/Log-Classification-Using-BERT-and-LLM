@@ -4,7 +4,7 @@ import os
 
 # load_dotenv()
 
-GROQ_API_KEY="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"
+GROQ_API_KEY="YOUR_GROQ_API_KEY"
 
 groq = Groq(api_key=GROQ_API_KEY)
 
